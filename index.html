@@ -7,61 +7,56 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100">
+<body class="bg-green-#64988F mx-auto font-san">
 
-    <!-- Footer Section -->
-<footer class="bg-[#64988F] text-white px-6 py-10">
-  <div class="max-w-6xl mx-auto grid gap-10 md:grid-cols-3">
+ <!-- Footer Section -->
+  <footer class="footer">
+
+    <!-- Top Row: Subscribe, Quick Link, Technologies -->
+    <div class="bg-[#64988F] text-white px-5 py-10">
+       
+      <!-- Column 1: Subscribe -->
+      <div class="subscribe">
+
+        <p class="subscribe-title">Subscribe to our newsletter for updates.</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Email Address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Column 2: Quick Link -->
+      <div class="footer-column">
+        <p class="column-title"><strong>Quick Link</strong></p>
+        <ul>
+          <li>Home</li>
+          <li>Who We Are</li>
+          <li>Our Philosophy</li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Technologies -->
+      <div class="footer-column">
+        <p class="column-title"><strong>Technologies</strong></p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Divider Line -->
+    <hr class="footer-line" />
+
+    <!-- Bottom Logo -->
+  <div class="footer-container">
+  <div class="footer-logo">
+    <img class="footer-logo-img" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
   </div>
-</footer> 
 
-    <!-- Column 1: Subscribe -->
-<div>
-  <p class="text-lg font-semibold mb-3">Subscribe to our newsletter for updates.</p>
-  <form class="flex flex-col sm:flex-row gap-3 sm:items-center" aria-label="Newsletter Subscription Form">
-    <input 
-      type="email" 
-      placeholder="Email Address" 
-      required 
-      class="w-full sm:w-auto flex-1 px-3 py-2 rounded-md text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
-    />
-    <button 
-      type="submit" 
-      class="bg-white text-[#64988F] font-semibold px-4 py-2 rounded-md hover:bg-gray-200 transition"
-    >
-      Subscribe
-    </button>
-  </form>
-</div>
+  </footer>
 
- <!-- Column 2: Quick Links -->
-<div>
-  <p class="text-lg font-semibold mb-3">Quick Links</p>
-  <ul class="space-y-2">
-      <li>Home</li>
-      <li>Who We Are</li>
-      <li>Our Philosophy</li>
-  </ul>
-</div>
-
-   <!-- Column 3: Technologies -->
-<div>
-  <p class="text-lg font-semibold mb-3">Technologies</p>
-  <ul class="space-y-2">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
-</div>
-                    
-<!-- Divider Line -->
-<hr class="my-8 border-white/30" />
-                    
-    <!-- Logo Bottom Row -->
-<div class="flex justify-center">
-  <img 
-    src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" 
-    alt="CodeSpace Logo" 
-    class="h-8"
-  />
-</div>
+</body>
+</html>
