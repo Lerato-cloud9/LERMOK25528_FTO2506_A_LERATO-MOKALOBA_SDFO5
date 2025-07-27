@@ -9,3 +9,5 @@ All project instructions, requirements, and submission details can be found in t
 Make sure to read it carefully before you start:  
 
 🔗 You will find the Challenge Brief in this repo in a markdown file called `CHALLENGE-BRIEF.MD`
+
+[View Footer Live]([View Footer Live](https://lerato-cloud9.github.io/LERMOK25528_FTO2506_A_LERATO-MOKALOBA_SDFO5/))
